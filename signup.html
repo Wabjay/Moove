@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/signup.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header_content">
+                <img src="images/logo.svg" alt="Company Logo">
+                <a href="#" class="hide-desktop menu">
+                    <img src="images/drop.png" alt="toggle menu" class="" id="menu-open">
+                  </a>
+                  <div class="hide-mobile" id="toggle-menu">
+                    <input type="text" placeholder="France" >
+                    <ul>
+                        <li>Homepage</li>
+                        <li>FAQ</li>
+                    </ul>
+                    <div class="link" id="signup">
+                        <p>Signup to drive</p>
+                        <img src="images/arrow.png" alt="arrow">
+                    </div>
+                  </div>
+                    
+            </div>
+        </header>
+        <main>
+            <div class="signup">
+                 <p class="sign">Signup to drive </p>
+            <p class="start">Start your path to a better experience</p>
+            <form action="">
+                <div class="inp">
+                    <input type="text"  placeholder="First name" name="firstName">
+                <input type="text"  placeholder="Last name" name="lastName">
+                <input type="tel"  placeholder="Phone number" name="phone">
+                <input type="email"  placeholder="Email adress" name="email">
+                <input type="text"  placeholder="Address" name="address">
+                <input type="date"  placeholder="MM/DD/YY" name="dob">
+                
+                </div>
+                
+                <div>
+                    <div class="custom-select" id="how">
+                        <select>
+                            <option value="0">How did you hear about moove</option>
+                            <option value="1">Friend</option>
+                            <option value="2">Google</option>
+                            <option value="3">News Paper</option>
+                            <option value="4">Advertisement</option>
+                          </select>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="custom-select" id="education">
+                        <select>
+                            <option value="0">Education level</option>
+                            <option value="1">Friend</option>
+                            <option value="2">Google</option>
+                            <option value="3">News Paper</option>
+                            <option value="4">Advertisement</option>
+                          </select>
+                    </div>
+                </div>
+                <div>
+                    <div class="custom-select" id="experience">
+                        <select>
+                            <option value="0">How long Driving</option>
+                            <option value="1">Friend</option>
+                            <option value="2">Google</option>
+                            <option value="3">News Paper</option>
+                            <option value="4">Advertisement</option>
+                          </select>
+                    </div>
+                </div>
+               
+                <div>
+                    <div class="custom-select" id="experience">
+                        <select>
+                            <option value="0">Driven on uber or other hailing apps?</option>
+                            <option value="1">Friend</option>
+                            <option value="2">Google</option>
+                            <option value="3">News Paper</option>
+                            <option value="4">Advertisement</option>
+                          </select>
+                    </div>
+                </div>
+                <p class="text">What do you think of the following cars</p>
+                <div class="stars">
+                    <div>
+                        <p>Kia rio sedan</p>
+                        <div class="star">
+                            <span class="rating"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Toyota corolla</p>
+                        <div class="star"></div>
+                        <span class="rating"></span>
+                    </div>
+                    <div>
+                        <p>Nissan Sentra</p>
+                        <div class="star">
+                            <span class="rating"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Volkswaggen vento</p>
+                        <div class="star">
+                            <span class="rating"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Hyundai accent</p>
+                        <div class="star"><span class="rating"></span></div>
+                    </div>
+                   <button>Submit credentials</button>
+                </div>
+          
+            <div class="info">
+                <p class="topic">Information Sharing Agreement</p>
+                <p class="text">
+                    By clicking submit you hereby authorize Moove Africa B.V. 
+                    (“Moove”) to share your above contact information, information 
+                    related to your eligibility to offer transportation services on 
+                    the Moove technology platform, and your historical usage details 
+                    starting with the first date you were approved to provide services 
+                    on the platform. You acknowledge that any agreement between you and 
+                    the service provider is in no way linked to Moove and is entirely 
+                    between you and the provider. Moove does not take responsibility for 
+                    what happens to your data or information once it has been shared with 
+                    the service provider.
+                </p>
+            </div>
+        </form>
+            </div>
+           
+        </main>
+        <footer>
+            <div class="footer_content">
+                <div>
+                    <img src="images/logo_footer.svg" alt="Company Logo">
+                    <p>Uber’s preferred fleet partner in 
+                     Sub-Saharan Africa</p>
+                </div>
+                <div>
+                    <p class="orange">Email adress</p>
+                    <p class="space">info@moove.africa</p>
+                    <p>© Moove Africa B.V. 2020</p>
+                </div>
+                <div>
+                   <p class="orange">Social</p>
+                   <div class="social">
+                    <img src="images/facebook.svg" alt="">
+                    <img src="images/twitter.svg" alt="">
+                    <img src="images/instagram.svg" alt="">
+                    <img src="images/Linkedin.svg" alt="">
+                   </div>
+                     <div class="link">
+                        <p>Signup to drive</p>
+                        <img src="images/arrow.png" alt="arrow">
+                    </div>
+                </div>
+               
+              
+               
+            </div>
+        </footer>
+  
+
+
+
+    <script src="js/script.js"></script>
+    <script src="js/SimpleStarRating.js"></script>
+    <script>
+        var ratings = document.getElementsByClassName('rating');
+
+        for (var i = 0; i < ratings.length; i++) {
+            var r = new SimpleStarRating(ratings[i]);
+
+            ratings[i].addEventListener('rate', function(e) {
+                console.log('Rating: ' + e.detail);
+            });
+        }
+    </script>
+</body>
+</html>

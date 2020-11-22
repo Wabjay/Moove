@@ -2,6 +2,11 @@ body, *{
     margin: 0;
     padding: 0;
 }
+
+a{
+    text-decoration: none;
+}
+
 .hide-mobile{
     display: none;
 }
@@ -57,6 +62,7 @@ margin-bottom: 32px;
 }
 
 #toggle-menu > .link{
+    cursor: pointer;
     display: flex;
     width: 189px;
 height: 40px;
@@ -77,6 +83,61 @@ background: #E73E23;
     height: 12px;
     align-self: center;
 }
+
+/* //pop up/ */
+#pop{
+    position: absolute;
+    box-sizing: border-box;
+    top: 80px;
+    left: 0;
+    background: #ffffff;
+    border-top: 0.5px solid #EDF2F7;
+    text-align: center;
+    padding: 41px 16px;
+    width: 100%;
+    /* height: 100vh; */
+}
+#pop img{
+    margin-bottom: 32px;
+}
+#pop .question{
+font-family: HelveticaNeueCyr;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+color: #030E17;
+margin-bottom: 16px;
+}
+#pop .quote{
+font-family: HelveticaNeueCyr;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #030E17;
+margin-bottom: 48px;
+}
+#pop .answer{
+    display: flex;
+    justify-content: space-between;
+    width: 225px;
+    margin: 0 auto;
+}
+#pop .answer p{
+padding: 9px 24px;
+font-family: HelveticaNeueCyr;
+font-style: normal;
+font-weight: 550;
+font-size: 16px;
+line-height: 22px;
+background: #E73E23;
+color: #FFFFFF;
+}
+
+
 /* //BANNER */
 
 .banner{
@@ -171,8 +232,19 @@ font-weight: bold;
 font-size: 18px;
 line-height: 26px;
 color: #030E17;
-list-style: url(../images/check.svg);
-margin-left: 36px;
+list-style: none;
+/* margin-left: 36px; */
+}
+.benefit_list ul li::before{
+    content: "";
+    background-image: url(../images/check.svg);
+    background-size: contain;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 0.5rem;
+    margin-right: 16px;
 }
 .benefit_list ul li{
  margin-bottom: 24px;
@@ -243,13 +315,137 @@ margin-bottom: 8px;
     color: #384D5F;
 }
 
+
+/* GALLERY SLIDESHOW TESTER */
 .three{
     margin-top: 47px;
     margin-bottom: 56px;
     background: #E73E23;
-    width: 100vw;
-
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 24px;
+    left: 0;
 }
+.three .center{
+    font-family: HelveticaNeueCyr;
+font-style: normal;
+font-weight: bold;
+font-size: 70px;
+line-height: 74px;
+text-align: center;
+letter-spacing: -1px;
+color: #FFFFFF;
+padding: 58px 0;
+}
+/* Slideshow container */
+.scrollGallery .container{
+    width: 100%;
+    margin:0 auto;
+    position: relative;
+}
+.slideshow-container {
+    max-width: 100%;
+    position: relative; position: relative;
+    margin:0 auto;
+  }
+  .mySlides1{
+     display: none;
+    animation-name: example;
+  animation-duration: 1s;
+    }
+    @keyframes example {
+        from {background-color: 0%;}
+        to {background-color:100%;}
+      }
+      
+    .slideshow-container .cars {
+     vertical-align: middle;
+     background: #FFFFFF;
+border-radius: 16px;
+padding: 24px;
+margin-bottom: 58px;
+box-sizing: border-box;
+}
+
+.slideshow-container img{
+    margin: 8px auto 24px;
+    /* margin-top: 8px;
+    margin-bottom: 24px; */
+    width: 216px;
+    height: 162px;
+    
+}
+
+.carname, .cardistance{
+    font-family: HelveticaNeueCyr;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 17px;
+color: #030E17;
+margin-bottom: 8px;
+}
+
+.cartype{
+    font-family: HelveticaNeueCyr;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 35px;
+color: #030E17;
+margin-bottom: 8px;
+}
+.lease{
+    font-family: HelveticaNeueCyr;
+font-style: normal;
+font-weight: 550;
+font-size: 16px;
+line-height: 22px;
+color: #E73E23;
+margin-bottom: 4px;
+}
+.carprice{
+    font-family: HelveticaNeueCyr;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #384D5F;
+}
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 16px;
+    box-sizing: border-box;
+    margin-top: -22px;
+    transition: 0.6s ease;
+    background: #FFFFFF;
+box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+border-radius: 24px;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: -25px;
+    /* border-radius: 3px 0 0 3px; */
+    background-image: url(../images/next.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .prev{
+    background-image: url(../images/prev.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    left: -25px;
+  }
+
+/* END SLIDESHOW TESTER */
 
 .four .top_title{
     font-family: HelveticaNeueCyr;
@@ -460,8 +656,66 @@ footer .link p{
     padding: 9px 24px;
 }
 
+/* //SIGNUP PAGE CSS */
+
+.signup input{
+    width: 286px;
+    height: 40px;
+    border: 1px solid #B7C2CA;
+    padding-left: 16px;
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #030E17;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+}
+
+.signup input::placeholder{
+    color: #8E979E;
+}
+
+.sign{
+    font-family: HelveticaNeueCyr;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 35px;
+text-align: center;
+color: #030E17;
+margin-bottom: 8px;
+}
+
+.start{
+    font-family: HelveticaNeueCyr;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #030E17;
+margin-bottom: 24px;
+}
 @media screen and (min-width: 765px){
     
+    
+/* //pop up/ */
+#pop{
+    padding: 72px 16px;
+}
+#pop > div{
+    max-width: 569px;
+    margin: 0 auto;
+}
+#pop .question{
+    font-size: 32px;
+    line-height: 35px;
+}
+
+
     .banner_content .big_text,
     .one .top_title,
     .two .top_title,
@@ -535,6 +789,9 @@ footer .link p{
     .two > #steps1 .hide, .two > #steps2 .hide{
         display: none;
     }
+    #steps2{
+        display: none;
+      }
     .two .tabs > div{
        padding: 17px 0;
     }
@@ -624,7 +881,6 @@ footer .link p{
     #toggle-menu ul li{
         margin-bottom: 0;
     }
-
     .benefit_list, .two > div{
        
         grid-template-columns: 1fr 1fr 1fr;
@@ -638,6 +894,22 @@ footer .link p{
         grid-column: 3/4;
         justify-self: center;
      }
+     /* THREE */
+     .three{
+        padding: 0 96px;
+    }
+     .mySlides1{
+        display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 24px;
+      }
+     
+        
+      .slideshow-container .cars {
+       vertical-align: middle;
+  }
+
+  /* THREE */
      .products .header {
         margin-bottom: 8px;
      }
@@ -707,6 +979,10 @@ footer .link p{
     } 
     .two > div.tabs{
         grid-template-columns: 1fr 1fr;
+    }
+
+    .three{
+        padding: 0 156px;
     }
 
     .benefit_list div:nth-child(3), .two > div .step:nth-child(3){ 

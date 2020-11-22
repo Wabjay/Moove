@@ -37,3 +37,22 @@ tab1.addEventListener("click", function() {
   tab1.classList.add("active");
   tab2.classList.remove("active");
 });
+
+
+
+
+
+
+//FOR UBER DRIVERS OR NOT
+
+
+var signUp = document.getElementById("signup");
+var popUp = document.getElementById("pop");
+
+
+signUp.addEventListener("click", function() {
+  popUp.style.display = "block";
+//   document.querySelector(".banner").style.display = "none"
+// document.querySelector(".bottom_banner").style.display = "none"
+// document.querySelector("main").style.display = "none"
+});
