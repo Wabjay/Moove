@@ -5,6 +5,7 @@ body, *{
 
 a{
     text-decoration: none;
+    color: inherit;
 }
 
 .hide-mobile{
@@ -18,6 +19,10 @@ a{
     height: 80px;
     box-sizing: border-box;
 }
+.header_content a{
+color: black;
+}
+
 .menu{
     align-self: center;
 }
