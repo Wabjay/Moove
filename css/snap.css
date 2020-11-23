@@ -33,7 +33,7 @@ body{
     margin: 0;
     margin-bottom: 15px;
     text-align: center;
-    font-family: Inter;
+    font-family: HelveticaNeueCyr;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -83,7 +83,7 @@ margin-top: 5px;
 
 }
 .states a{
-  font-family: Inter;
+  font-family: HelveticaNeueCyr;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
