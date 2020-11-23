@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/signup.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/faq.css">
+    <title>FAQ</title>
 </head>
 <body>
     <div class="container">
         <header>
             <div class="header_content">
-                <img src="images/logo.svg" alt="Company Logo">
+               <a href="home.html"><img src="images/logo.svg" alt="Company Logo"></a>
                 <a href="#" class="hide-desktop menu">
                     <img src="images/drop.png" alt="toggle menu" class="" id="menu-open">
                   </a>
@@ -29,117 +29,176 @@
                     
             </div>
         </header>
-        <main>
-            <div class="signup">
-                 <p class="sign">Signup to drive </p>
-            <p class="start">Start your path to a better experience</p>
-            <form action="">
-                <div class="inp">
-                    <input type="text"  placeholder="First name" name="firstName">
-                <input type="text"  placeholder="Last name" name="lastName">
-                <input type="tel"  placeholder="Phone number" name="phone">
-                <input type="email"  placeholder="Email adress" name="email">
-                <input type="text"  placeholder="Address" name="address">
-                <input type="date"  placeholder="MM/DD/YY" name="dob">
-                
-                </div>
-                
-                <div>
-                    <div class="custom-select" id="how">
-                        <select>
-                            <option value="0">How did you hear about moove</option>
-                            <option value="1">Friend</option>
-                            <option value="2">Google</option>
-                            <option value="3">News Paper</option>
-                            <option value="4">Advertisement</option>
-                          </select>
-                    </div>
-                </div>
-                
-                <div>
-                    <div class="custom-select" id="education">
-                        <select>
-                            <option value="0">Education level</option>
-                            <option value="1">Friend</option>
-                            <option value="2">Google</option>
-                            <option value="3">News Paper</option>
-                            <option value="4">Advertisement</option>
-                          </select>
-                    </div>
-                </div>
-                <div>
-                    <div class="custom-select" id="experience">
-                        <select>
-                            <option value="0">How long Driving</option>
-                            <option value="1">Friend</option>
-                            <option value="2">Google</option>
-                            <option value="3">News Paper</option>
-                            <option value="4">Advertisement</option>
-                          </select>
-                    </div>
-                </div>
-               
-                <div>
-                    <div class="custom-select" id="experience">
-                        <select>
-                            <option value="0">Driven on uber or other hailing apps?</option>
-                            <option value="1">Friend</option>
-                            <option value="2">Google</option>
-                            <option value="3">News Paper</option>
-                            <option value="4">Advertisement</option>
-                          </select>
-                    </div>
-                </div>
-                <p class="text">What do you think of the following cars</p>
-                <div class="stars">
-                    <div>
-                        <p>Kia rio sedan</p>
-                        <div class="star">
-                            <span class="rating"></span>
-                        </div>
-                    </div>
-                    <div>
-                        <p>Toyota corolla</p>
-                        <div class="star"></div>
-                        <span class="rating"></span>
-                    </div>
-                    <div>
-                        <p>Nissan Sentra</p>
-                        <div class="star">
-                            <span class="rating"></span>
-                        </div>
-                    </div>
-                    <div>
-                        <p>Volkswaggen vento</p>
-                        <div class="star">
-                            <span class="rating"></span>
-                        </div>
-                    </div>
-                    <div>
-                        <p>Hyundai accent</p>
-                        <div class="star"><span class="rating"></span></div>
-                    </div>
-                   <button>Submit credentials</button>
-                </div>
-          
-            <div class="info">
-                <p class="topic">Information Sharing Agreement</p>
-                <p class="text">
-                    By clicking submit you hereby authorize Moove Africa B.V. 
-                    (“Moove”) to share your above contact information, information 
-                    related to your eligibility to offer transportation services on 
-                    the Moove technology platform, and your historical usage details 
-                    starting with the first date you were approved to provide services 
-                    on the platform. You acknowledge that any agreement between you and 
-                    the service provider is in no way linked to Moove and is entirely 
-                    between you and the provider. Moove does not take responsibility for 
-                    what happens to your data or information once it has been shared with 
-                    the service provider.
-                </p>
-            </div>
-        </form>
+        <section id="pop" style="display: none;">
+            <div>
+                <img src="images/logo.png" alt="logo">
+                <p class="question">Are you currently an 
+                    uber driver</p>
+                    <p class="quote">If Yes, kindly fill out
+                         the form provided and make sure all information is true and verified.</p>
+                         <div class="answer">
+                             <a href="#"><p id="yes">Yes</p></a>
+                             <a href="signup.html"><p id="no">No</p></a>
+                         </div>
             </div>
            
+        </section>
+        <main>
+            <div class="content">
+                <div class="left">
+                    <div>
+                        <p class="bold">How do I pay for my Fair car?</p>
+                        <p class="text">Fair makes it easy to set up 
+                            payments right in the Fair app. You have the 
+                            option to pay by credit or debit card or link directly to your bank account.</p>
+                    </div>
+                    <div>
+                        <p class="bold">What type of payment methods do you accept?</p>
+                        <p class="text">Fair accepts the following payment methods for recurring payments:</p>
+                        <ul>
+                            <li>ACH (Automatic Clearing House)</li>
+                            <li>Debit card</li>
+                            <li>Credit card</li>
+                            <li>Apple Pay (Apple OS)</li>
+                            <li>Google Pay (Android OS)</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="bold">What is an ACH payment?</p>
+                        <p class="text">An ACH payment is a direct 
+                            payment that is withdrawn from your bank account. 
+                            You can set up ACH in the Fair app by linking directly 
+                            to your bank account. Once you set up ACH, your recurring 
+                            payment will automatically deduct on your payment date. </p>
+                    </div>
+                    <div>
+                        <p class="bold">Am I required to set up automatic payments?</p>
+                        <p class="text">Yes. Fair requires you to set up digital automatic 
+                            payments, which you can do easily through the Fair app with a 
+                            bank account, debit card or credit card with a valid U.S. address.</p>
+                    </div>
+                    <div>
+                        <p class="bold">What will I owe upfront?</p>
+                        <p class="text">At checkout, you’ll make your down payment, your 
+                            first monthly payment, and any add-ons you’ve selected in the app, 
+                            such as extra miles or excess wear & tear protection. In some cases, 
+                            you may also be required to make an additional refundable security deposit. </p>
+                    </div>
+                    <div>
+                        <p class="bold">What is the Down Payment?</p>
+                        <p class="text">Our down payment is an upfront fee due at signing and before driving away.
+                             The down payment generally covers the costs of initial documentation, registration and
+                              licensing fees and has the effect of reducing the cost of monthly payments for the Fair
+                               program, which comes with routine maintenance, limited warranty, and roadside assistance
+                                included. For our 2 year and 3 year leases, the down payment is the capitalized cost
+                                 reduction as in a common lease. The cap cost reduction is an upfront payment that has
+                                  the effect of reducing the monthly lease payments for a car.</p>
+                    </div>
+                    <div>
+                        <p class="bold">What does the refundable security deposit cover?</p>
+                        <p class="text">The refundable security deposit you may be required to make upfront will
+                             be applied toward any amounts due when you return your Fair car, such as tolls & citations,
+                            mileage overages or excess wear & tear. If nothing is due, you’ll get your security deposit 
+                            back in full.</p>
+                    </div>
+                    <div>
+                        <p class="bold">When is my first monthly payment due?</p>
+                        <p class="text">Your first monthly payment is due upfront when you sign your contracts,
+                             along with your down payment, any refundable security deposit, and any add-ons you
+                              may have purchased, like additional mileage or excess wear & tear protection.</p>
+                    </div>
+                    <div>
+                        <p class="bold">When will my following monthly payments be due?</p>
+                        <p class="text">Your monthly payment date is determined by when you get your Fair car. 
+                            Once your monthly payment date is locked in, it will remain the same for every month. 
+                            For example, if you picked up your car (or the car was delivered) on June 6th, your next payment 
+                            will be on July 6th, then August 6th, etc.</p>
+                            <p class="text">If you picked up your car (or the car was delivered) on the 29th, 30th, 
+                            or 31st of a month, your monthly payment date would be pushed to the 1st of the month and 
+                            remain on the 1st of each following month. For example, if you picked up (or the car was 
+                            delivered) on June 29th, your next payment would be August 1st, then September 1st, etc.</p>
+                    </div>
+                    <div>
+                        <p class="bold">How much is the late charge?</p>
+                        <p class="text">You may incur a late charge for any payment that is not received within 10 
+                            days after your due date. The late charge will be $25 or 5% of the amount due, whichever 
+                            is lower.</p>
+                    </div>
+                    <div>
+                        <p class="bold">
+                            I'm having trouble making the down payment, 
+                            security deposit or first monthly payment. Why am I getting an error?</p>
+                            <p class="text">If you're getting an error message, check with your bank or 
+                                credit card company to make sure:</p>
+
+                            <ul>
+                                <li>The dollar amount of available funds matches the total required for your down payment</li>
+                                <li>Pending deposits to your bank account have cleared for available use</li>
+                                <li>Fair is authorized on the account to withdraw this amount</li>
+                                <li>Your card isn’t being declined for any other reason</li>
+                            </ul>
+
+                            <p class="text">If you've called your bank or credit card company about these issues and still 
+                                need further assistance, please don't hesitate to chat with or call us in the app to figure things out.</p>
+                    </div>
+                    <div>
+                        <p class="bold">My bank isn't listed when I try to connect an account. What else can I use?</p>
+                        <p class="text">If your bank isn't listed, you can authorize your payments using a credit or debit card.</p>
+                    </div>
+                    <div>
+                        <p class="bold">How does billing work if I return my Fair car in the middle of a billing period?</p>
+                        <p class="text">If you paid your first monthly payment at checkout, you are billed in advance so you
+                             will receive a prorated credit on your final bill for the unused days.</p>
+                        <p class="text">If you did not pay your first monthly payment until a month after receiving your Fair car, 
+                             then you are likely being billed in arrears. After returning your car, you will receive a bill that is 
+                             prorated to reflect the number of days you had the car since the close of the previous billing cycle.</p>
+                        <p class="text">If you’re unsure whether you’re billed in advance or arrears, you can call or chat with a 
+                             Fair representative through the app. We're available Monday-Friday from 7a.m.-5 p.m. Pacific, and on 
+                             Saturday from 7 a.m.-4 p.m. We're not available on Sundays. You can also email us at <a href="#">support@fair.com.</a></p>
+                    </div>
+                    <div>
+                        <p class="bold">Why did I receive an email regarding a sales tax update?</p>
+                        <p class="text">From time to time, there are changes in the sales tax that can affect your 
+                            monthly payment. These changes affect drivers. Your notification is just a friendly 
+                            reminder to keep you apprised of the latest information regarding any changes in taxes. </p>
+                    </div>
+                    <div>
+                        <p class="bold">I received a citation, toll or ticket.  What should I do?</p>
+                        <p class="text">You are responsible for any citation, toll or ticket that you incur while driving 
+                            a Fair car. We recommend that you pay your citation, toll or ticket before the due date in order
+                             to avoid incurring additional fees. Please note that in order to renew registration, all citations
+                              and tolls must be paid in full. If you have other questions regarding a toll or citation, please
+                               contact us at <a href="#">tolls@fair.com</a></p>
+                    </div>
+                    <div>
+                        <p class="bold">What happens if I don’t pay my citation or toll ticket?</p>
+                        <p class="text">If you don’t pay a citation or toll, Fair will receive a notice of the 
+                            violation and will make the initial payment on behalf of the customer to avoid incurring
+                            additional fees or creating interruptions in your subscription. </p>
+                            <p class="text">Once the fee (including any penalties from the issuing authority, 
+                                if applicable) has been paid by Fair, that amount will be added to your outstanding 
+                                balance in the Fair app.</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <p class="bold">Other Articles</p>
+                    <a href="#">How do I pay for my Fair car?</a>
+                    <a href="#">How do I turn in my Fair car?</a>
+                    <a href="#">What are the requirements for getting a Fair car and what is the approval process?</a>
+                    <a href="#">What is Fair doing in response to the COVID-19 situation?</a>
+                    <a href="#">I have questions about my license plates or registration</a>
+                </div>
+
+                <div class="bottom">
+                    <div>
+                        <p class="bolder">Can't find what you're looking for?</p>
+                        <p class="text">We'll help you find the answer or walk you through the solution.</p>
+                        <a href="#">support@moove.com</a>
+                    </div>
+                    <!-- <img src="" alt="CEO"> -->
+                </div>
+            </div>
+            
         </main>
         <footer>
             <div class="footer_content">
@@ -176,25 +235,16 @@
 
 
     <script src="js/script.js"></script>
-    <script src="js/SimpleStarRating.js"></script>
+    <!-- <script src="js/SimpleStarRating.js"></script> -->
     <script>
-        var ratings = document.getElementsByClassName('rating');
-
-        for (var i = 0; i < ratings.length; i++) {
-            var r = new SimpleStarRating(ratings[i]);
-
-            ratings[i].addEventListener('rate', function(e) {
-                console.log('Rating: ' + e.detail);
-            });
-        }
-
+       
         var signUp1 = document.getElementById("signup");
-var popUp = document.getElementById("pop");
+        var popUp = document.getElementById("pop");
 
 
-signUp.addEventListener("click", function() {
-  popUp.style.display = "block";
-});
+        signUp.addEventListener("click", function() {
+        popUp.style.display = "block";
+        });
     </script>
 </body>
 </html>
