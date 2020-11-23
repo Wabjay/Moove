@@ -265,7 +265,7 @@ list-style: none;
  padding-top: 7px;
  padding-bottom: 7px;
  height: 32px;
- /* ba */white-space: nowrap;
+ /* white-space: nowrap;*/
  background-repeat: no-repeat;
 
 }
@@ -592,7 +592,7 @@ margin-bottom: 27px;
     display: block;
 }
 .bottom_banner .banner_content{
-    width: 100%;
+    /* width: 100%; */
     background: url(../images/banner_footer.png);
     background-repeat: no-repeat;
     background-size: cover;
