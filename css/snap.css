@@ -1,3 +1,6 @@
+
+@import url(../fonts/all.css);
+@import url(fonts.css);
 body{
   background: url(../images/Splash.png);
     /* width: 100%; */

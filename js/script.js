@@ -47,12 +47,17 @@ tab1.addEventListener("click", function() {
 
 
 var signUp = document.getElementById("signup");
+var signUp1 = document.getElementById("link1");
+var signUp2 = document.getElementById("link2");
 var popUp = document.getElementById("pop");
 
 
 signUp.addEventListener("click", function() {
   popUp.style.display = "block";
-//   document.querySelector(".banner").style.display = "none"
-// document.querySelector(".bottom_banner").style.display = "none"
-// document.querySelector("main").style.display = "none"
+});
+signUp1.addEventListener("click", function() {
+  popUp.style.display = "block";
+});
+signUp2.addEventListener("click", function() {
+  popUp.style.display = "block";
 });

@@ -1,3 +1,6 @@
+
+@import url(../fonts/all.css);
+@import url(fonts.css);
 body, *{
     margin: 0;
     padding: 0;
@@ -73,6 +76,9 @@ margin-bottom: 32px;
 height: 40px;
 background: #E73E23;
 }
+.link{
+    cursor: pointer;
+}
 #toggle-menu > .link p{
 
     font-family: HelveticaNeueCyr;
@@ -91,7 +97,7 @@ background: #E73E23;
 
 /* //pop up/ */
 #pop{
-    position: absolute;
+    position: fixed;
     box-sizing: border-box;
     top: 80px;
     left: 0;
@@ -240,7 +246,7 @@ color: #030E17;
 list-style: none;
 /* margin-left: 36px; */
 }
-.benefit_list ul li::before{
+/* .benefit_list ul li::before{
     content: "";
     background-image: url(../images/check.svg);
     background-size: contain;
@@ -250,9 +256,18 @@ list-style: none;
     position: relative;
     top: 0.5rem;
     margin-right: 16px;
-}
+} */
 .benefit_list ul li{
  margin-bottom: 24px;
+ background-image: url(../images/check.svg);
+ background-size: 32px;
+ padding-left: 48px;
+ padding-top: 7px;
+ padding-bottom: 7px;
+ height: 32px;
+ /* ba */white-space: nowrap;
+ background-repeat: no-repeat;
+
 }
 
 .two .top_title{
@@ -510,6 +525,7 @@ line-height: 35px;
 text-align: center;
 color: #030E17;
 margin-bottom: 28px;
+max-width: 728px;
 }
 .staff{
     background: #FFF9F9;
@@ -554,7 +570,7 @@ margin-bottom: 0;
 
 .six{
     text-align: center;
-    margin-bottom: 82px;
+    margin-bottom: 112px;
 }
 .six .top_title{
     font-family: HelveticaNeueCyr;
@@ -794,6 +810,9 @@ margin-bottom: 24px;
     .two > #steps1 .hide, .two > #steps2 .hide{
         display: none;
     }
+    #steps1{
+        margin-bottom: 24px;
+    }
     #steps2{
         display: none;
       }
@@ -817,6 +836,11 @@ margin-bottom: 24px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 24px;
+    }
+
+    .five .top_title{
+        margin-left: auto;
+        margin-right: auto;
     }
     .six .logos{
         display: flex;
@@ -899,6 +923,9 @@ margin-bottom: 24px;
         grid-column: 3/4;
         justify-self: center;
      }
+     #steps1{
+        margin-bottom: 80px;
+    }
      /* THREE */
      .three{
         padding: 0 96px;
@@ -931,12 +958,15 @@ margin-bottom: 24px;
          padding: 0 96px
      }
      .banner_content{
-    padding: 75px 156px;
+    padding: 75px 96px;
      }
      .header_content{
          margin: 0;
          width: 100%;
      }
+     .six{
+        margin-bottom: 122px;
+    }
 .footer_content{
     padding-top: 56px;
 }

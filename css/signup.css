@@ -1,4 +1,5 @@
-
+@import url(../fonts/all.css);
+@import url(fonts.css);
 form{
     text-align: center;
     width: 100%;
@@ -118,8 +119,8 @@ border-radius: 0.5px;
   display: inline-block;
   color: #aaa;
   content: '☆';
-  width: 14px;
-  height: 14px;
+  width: 1em;
+  height: 1em;
   padding-right: 3px; }
 
 .rating .star::after {
@@ -146,6 +147,35 @@ border-radius: 0.5px;
 
 /*# sourceMappingURL=SimpleStarRating.css.map */
 
+
+
+.rating .star::before {
+  /* display: inline-block; */
+  color: #aaa;
+  content: '☆';
+  width: 14px;
+  height: 14px; }
+
+.rating .star::after {
+  /* display: inline-block; */
+  position: absolute;
+  content: '★';
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  transition: all 0.1s linear;
+  overflow: hidden; }
+
+.rating:not([disabled]) .star:hover::after,
+.rating .star.active::after {
+  opacity: 1;
+  width: 1em;
+  height: 1em; }
+
+.rating .star.active.half::after {
+  width: 0.5em; }
 
 .info .topic{
     font-family: HelveticaNeueCyr;
