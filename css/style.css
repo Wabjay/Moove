@@ -749,6 +749,9 @@ margin-bottom: 24px;
         margin-bottom: 56px;
         text-align: center;
     }
+    .two .top_title{
+        margin-bottom: 16px;
+    }
     .banner_content .big_text,
     .one .top_title,
     .four .top_title{
@@ -923,7 +926,7 @@ margin-bottom: 24px;
         grid-column: 3/4;
         justify-self: center;
      }
-     #steps1{
+     #steps1, #steps2{
         margin-bottom: 80px;
     }
      /* THREE */
