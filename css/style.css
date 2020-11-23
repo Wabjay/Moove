@@ -316,6 +316,7 @@ margin-bottom: 64px;
 #steps2 .step:nth-child(3){
     background-image: url(../images/6.png);
 }
+
 .step p:first-child{
     font-family: HelveticaNeueCyr;
 font-style: normal;
@@ -827,6 +828,9 @@ margin-bottom: 24px;
         background: #CA2E16;
         color: #ffffff;
     }
+    .two .details {
+        margin-bottom: 32px
+    };
 
     .four .products{
         display: grid;
@@ -928,6 +932,7 @@ margin-bottom: 24px;
      }
      #steps1, #steps2{
         margin-bottom: 80px;
+        height: 325px;
     }
      /* THREE */
      .three{
