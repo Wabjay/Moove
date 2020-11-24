@@ -13,10 +13,14 @@
 @font-face {
   font-family: HelveticaNeueCyr-BlackItalic;
   src: url(../fonts/HelveticaNeueCyr-BlackItalic.otf);
+  font-style: italic;
+  font-weight: normal;
 }
 @font-face {
   font-family: HelveticaNeueCyr-Bold;
+  src: url(../fonts/);
   src: url(../fonts/HelveticaNeueCyr-Bold.otf);
+
 }
 @font-face {
   font-family: HelveticaNeueCyr-BoldItalic;

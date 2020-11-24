@@ -53,7 +53,7 @@ width: 207px;
 height: 40px;
 border: 1px solid #B7C2CA;
 padding-left: 16px;
-font-family: HelveticaNeueCyr;
+font-family: HelveticaNeueCyr-Light;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -63,7 +63,7 @@ color: #030E17;
 margin-bottom: 32px;
 }
 #toggle-menu ul{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Bold;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
@@ -88,7 +88,7 @@ background: #E73E23;
 }
 #toggle-menu > .link p{
 
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Light;
     font-style: normal;
     font-weight: 550;
     font-size: 16px;
@@ -119,7 +119,7 @@ background: #E73E23;
     margin-bottom: 32px;
 }
 #pop .question{
-font-family: HelveticaNeueCyr;
+font-family: HelveticaNeueCyr-Bold;
 font-style: normal;
 font-weight: bold;
 font-size: 24px;
@@ -129,7 +129,7 @@ color: #030E17;
 margin-bottom: 16px;
 }
 #pop .quote{
-font-family: HelveticaNeueCyr;
+font-family: HelveticaNeueCyr-Light;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
@@ -146,7 +146,7 @@ margin-bottom: 48px;
 }
 #pop .answer p{
 padding: 9px 24px;
-font-family: HelveticaNeueCyr;
+font-family: HelveticaNeueCyr-Light;
 font-style: normal;
 font-weight: 550;
 font-size: 16px;
@@ -169,7 +169,7 @@ color: #FFFFFF;
     padding: 65px 16px;
 }
 .banner_content .big_text{
-font-family: HelveticaNeueCyr;
+font-family: HelveticaNeueCyr-Light;
 font-style: normal;
 font-weight: bold;
 font-size: 32px;
@@ -178,7 +178,7 @@ color: #FFFFFF;
 margin-bottom: 37px;
 }
 .banner_content .details{
-font-family: HelveticaNeueCyr;
+font-family: HelveticaNeueCyr-Light;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -197,7 +197,7 @@ color: #FFFFFF;
 height: 30px;
 } */
 .banner_content > div p{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Light;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -212,7 +212,7 @@ main{
     margin: 0 16px;
 }
 .one .top_title{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Bold;
 font-style: normal;
 font-weight: bold;
 font-size: 32px;
@@ -234,7 +234,7 @@ margin-bottom: 22px;
 padding: 24px;
 }
 .benefit_list .header{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Bold;
 font-style: normal;
 font-weight: bold;
 font-size: 24px;
@@ -244,7 +244,7 @@ margin-bottom: 30px;
 }
 
 .benefit_list ul{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr--Bold;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
@@ -278,7 +278,7 @@ list-style: none;
 }
 
 .two .top_title{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Bold;
 font-style: normal;
 font-weight: bold;
 font-size: 32px;
@@ -288,7 +288,7 @@ color: #030E17;
 margin-bottom: 8px;
 }
 .two .details{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Light;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -325,7 +325,7 @@ margin-bottom: 64px;
 }
 
 .step p:first-child{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Bold;
 font-style: normal;
 font-weight: bold;
 font-size: 24px;
@@ -334,7 +334,7 @@ color: #030E17;
 margin-bottom: 8px;  
 }
 .step p:nth-child(2){
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Light;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -355,7 +355,7 @@ margin-bottom: 8px;
     left: 0;
 }
 .three .center{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Bold;
 font-style: normal;
 font-weight: bold;
 font-size: 70px;
@@ -405,7 +405,7 @@ box-sizing: border-box;
 }
 
 .carname, .cardistance{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Light;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
@@ -415,7 +415,7 @@ margin-bottom: 8px;
 }
 
 .cartype{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Bold;
 font-style: normal;
 font-weight: bold;
 font-size: 32px;
@@ -424,7 +424,7 @@ color: #030E17;
 margin-bottom: 8px;
 }
 .lease{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Light;
 font-style: normal;
 font-weight: 550;
 font-size: 16px;
@@ -433,7 +433,7 @@ color: #E73E23;
 margin-bottom: 4px;
 }
 .carprice{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Light;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -476,7 +476,7 @@ border-radius: 24px;
 /* END SLIDESHOW TESTER */
 
 .four .top_title{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Bold;
 font-style: normal;
 font-weight: bold;
 font-size: 32px;
@@ -487,7 +487,7 @@ margin-bottom: 32px;
 
 .products .header{
 margin-bottom: 15px;
-font-family: HelveticaNeueCyr;
+font-family: HelveticaNeueCyr-Bold;
 font-style: normal;
 font-weight: bold;
 font-size: 24px;
@@ -499,7 +499,7 @@ color: #E73E23;
 }
 
 .products p:nth-child(2){
-font-family: HelveticaNeueCyr;
+font-family: HelveticaNeueCyr-Light;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -515,7 +515,7 @@ margin-top: 10px;
 }
 .products .link p{
 
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Light;
     font-style: normal;
     font-weight: 550;
     font-size: 16px;
@@ -525,7 +525,7 @@ margin-top: 10px;
 }
 
 .five .top_title{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Bold;
 font-style: normal;
 font-weight: bold;
 font-size: 32px;
@@ -543,7 +543,7 @@ text-align: center;
 margin-bottom: 24px;
 }
 .staff p{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Light;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
@@ -556,7 +556,7 @@ margin-bottom: 26px;
     margin-bottom: 16px;
 }
 .staff .name{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Bold;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
@@ -566,7 +566,7 @@ padding: 0;
 margin-bottom: 2px;
 }
 .staff .post{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Light;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -581,7 +581,7 @@ margin-bottom: 0;
     margin-bottom: 112px;
 }
 .six .top_title{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Bold;
 font-style: normal;
 font-weight: bold;
 font-size: 32px;
@@ -607,7 +607,7 @@ margin-bottom: 27px;
     /* padding: 75px 16px; */
 }
 .bottom_banner .big_text{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Bold;
 font-style: normal;
 font-weight: bold;
 font-size: 32px;
@@ -625,7 +625,7 @@ background: #E73E23;
 }
 .bottom_banner  .link p{
 
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Light;
     font-style: normal;
     font-weight: 550;
     font-size: 16px;
@@ -642,7 +642,7 @@ footer{
     margin-bottom: 40px;
 }
 footer p{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Bold;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
@@ -650,7 +650,7 @@ line-height: 22px;
 color: #FFFFFF;
 }
 footer .orange{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Bold;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
@@ -676,7 +676,7 @@ background: #E73E23;
 } 
 footer .link p{
 
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Light;
     font-style: normal;
     font-weight: 550;
     font-size: 16px;
@@ -692,7 +692,7 @@ footer .link p{
     height: 40px;
     border: 1px solid #B7C2CA;
     padding-left: 16px;
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Light;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -708,7 +708,7 @@ footer .link p{
 }
 
 .sign{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Bold;
 font-style: normal;
 font-weight: bold;
 font-size: 32px;
@@ -719,7 +719,7 @@ margin-bottom: 8px;
 }
 
 .start{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Light;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
@@ -808,7 +808,7 @@ margin-bottom: 24px;
         /* align-content: center; */
         grid-column-gap: 0;
         background: #FFF9F9;
-        font-family: HelveticaNeueCyr;
+        font-family: HelveticaNeueCyr-Bold;
         font-style: normal;
         font-weight: bold;
         font-size: 18px;

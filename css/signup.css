@@ -14,7 +14,7 @@ a{
   text-decoration: none;
 }
  .text{
-  font-family: HelveticaNeueCyr;
+  font-family: HelveticaNeueCyr-Light;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -58,7 +58,7 @@ a{
     justify-self: self-start;
 }
  .stars p{
-  font-family: HelveticaNeueCyr;
+  font-family: HelveticaNeueCyr-Light;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -70,7 +70,7 @@ a{
 
  .stars button{
     background: #E73E23;
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Light;
 font-style: normal;
 font-weight: 550;
 font-size: 16px;
@@ -89,7 +89,7 @@ grid-column: 1/7;
   border: 1px solid #B7C2CA;
   padding-left: 16px;
   padding-right: 16px;
-  font-family: HelveticaNeueCyr;
+  font-family: HelveticaNeueCyr-Light;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -209,7 +209,7 @@ border-radius: 0.5px;
   width: 0.5em; }
 
 .info .topic{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Bold;
 font-style: normal;
 font-weight: bold;
 font-size: 24px;
@@ -218,7 +218,7 @@ color: #030E17;
 margin-bottom: 16px;
 }
 .info .text{
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyr-Bold;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
