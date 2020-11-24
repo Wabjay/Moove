@@ -245,7 +245,7 @@ margin-bottom: 30px;
 }
 
 .benefit_list ul{
-    font-family: HelveticaNeueCyr--Bold;
+    font-family: HelveticaNeueCyr-Bold;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
@@ -270,7 +270,7 @@ list-style: none;
  background-image: url(../images/check.svg);
  background-size: 32px;
  padding-left: 48px;
- padding-top: 7px;
+ /* padding-top: 7px; */
  padding-bottom: 7px;
  height: 32px;
  /* white-space: nowrap;*/
@@ -376,6 +376,9 @@ padding: 58px 0;
     max-width: 100%;
     position: relative; position: relative;
     margin:0 auto;
+  }
+  .keep{
+      display: none;
   }
   .mySlides1{
      display: none;
@@ -934,6 +937,9 @@ margin-bottom: 24px;
         grid-template-columns: 1fr 1fr;
     }
 
+    .keep{
+        display: inline;
+    }
     .benefit_list div:nth-child(3), .two > div .step:nth-child(3){ 
         grid-column: 3/4;
         justify-self: center;
