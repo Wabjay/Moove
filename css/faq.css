@@ -1,4 +1,5 @@
-
+@import url(../fonts/all.css);
+@import url(fonts.css);
 .text{
     font-family: HelveticaNeueCyr;
     font-style: normal;

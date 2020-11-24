@@ -1,4 +1,5 @@
-
+@import url(../fonts/all.css);
+@import url(fonts.css);
 form{
     text-align: center;
     width: 100%;
