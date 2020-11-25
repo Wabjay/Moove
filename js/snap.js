@@ -10,3 +10,17 @@ choose.addEventListener("click", function() {
     states.style.display = "none";
   }
 })
+
+e = document.querySelectorAll('#states a');
+
+e.forEach(function(state) {
+  // for(i = 0; i < e; i++){
+state.addEventListener('click', function() {
+ country = state.textContent;
+// console.log(country)
+
+  localStorage.setItem("textValue", country);
+  console.log(country + " getinput");
+})
+})
+

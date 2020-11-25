@@ -16,7 +16,7 @@
                     <img src="images/drop.png" alt="toggle menu" class="" id="menu-open">
                   </a>
                   <div class="hide-mobile" id="toggle-menu">
-                    <input type="text" placeholder="France" >
+                    <input type="text" placeholder="France" id="country" disabled value="">
                     <ul>
                         <li><a href="home.html">Homepage</a></li>
                         <li><a href="faq.html">FAQ</a></li>
@@ -245,6 +245,14 @@
         signUp.addEventListener("click", function() {
         popUp.style.display = "block";
         });
+
+
+        
+//LocalStorage for Slideshow
+  var countries = localStorage.getItem("textValue");
+  var show = document.getElementById('country');
+  show.value = countries;
+
     </script>
 </body>
 </html>

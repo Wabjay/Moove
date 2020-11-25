@@ -61,3 +61,10 @@ signUp1.addEventListener("click", function() {
 signUp2.addEventListener("click", function() {
   popUp.style.display = "block";
 });
+
+
+//LocalStorage for Slideshow
+  var countries = localStorage.getItem("textValue");
+  var show = document.getElementById('country');
+
+  show.value = countries;
