@@ -1,5 +1,8 @@
 @import url(../fonts/all.css);
 @import url(fonts.css);
+.content{
+    padding-top: 32px;
+}
 .text{
     font-family: HelveticaNeueCyr-Light;
     font-style: normal;
